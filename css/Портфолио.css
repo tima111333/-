@@ -1,0 +1,277 @@
+*{
+  box-sizing: border-box;
+  Font Family: "Uni Neue", sans-serif;
+
+
+}
+body{
+  margin: 0;
+     Font Family: "Uni Neue", sans-serif;
+}
+.header{
+  position: relative;
+  height: 800px;
+  background-color: #EEF9FF;
+}
+.header-row{
+  display: flex;
+}
+.nav{
+  padding-top: 26px;
+  display: flex;
+justify-content: space-around;
+}
+.container{
+  width: 1260px;
+ margin: 0 auto;
+}
+ .logo{
+display: flex;
+align-items: center;
+ }
+ .logo__title{
+   font-family: "Uni Neue" , sans-serif;
+   position: relative;
+   font-weight: 500;
+   font-size: 32px;
+   line-height: 1;
+   padding-right: 27px;
+   color: #363636;
+ }
+  .logo__title::after{
+    position: absolute;
+    right: 0;
+    top: 1px;
+    content: "";
+    display: block;
+    width: 1px;
+    height: 30px;
+    background-color: #DDDDDD;
+  }
+.logo__slogan{
+  font-size: 12px;
+  line-height: 1.17;
+  color: #4B5455;
+  padding-left: 27px;
+  width: 160px;
+  font-family: 'Uni Neue Book',sans-serif;
+
+}
+
+.top-nav__link{
+  margin-right: 16px;
+  color:#363636;
+  text-decoration:none;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: bold;
+}
+.header__content{
+width: 645px;
+flex-shrink: 0;
+}
+.header__title{
+  font-family: "Uni Neue Book",sans-serif;
+  font-weight: 400;
+  font-size: 82px;
+  line-height: 1.1;
+}
+.header__title span{
+  font-family: "Uni Neue",sans-serif;
+  color: #69B0AC;
+}
+.header__text{
+  font-family: "Uni Neue",sans-serif;
+  width: 440px;
+  margin-bottom: 40px;
+
+}
+.header__text p{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #7C7C7C;
+
+}
+.header-list{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #363636;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.header-list__item::before{
+  content: "";
+ width: 25px;
+ height: 23px;
+ position: absolute;
+ left: 0;
+ top:1px;
+ background-image: url("./../image/Group 3.svg");
+}
+.header-list b{
+  font-weight: 700;
+
+}
+.header-list__item{
+  position: relative;
+  margin-bottom: 15px;
+  padding-left: 40px;
+}
+.header__img-wrapper{
+  width: 1260px;
+ margin: 0 auto;
+ height: 200px;
+ position: absolute;
+ bottom: 0;
+ left: 50%;
+ transform: translate(-50%, 0);
+}
+.header__img{
+  position: absolute;
+  bottom: 0;
+  right: -86px;
+}
+.test{
+  margin: 200px;
+}
+.header__arrow{
+  display: block;
+  background: url(../image/Детали.svg) center center;
+  position: absolute;
+  left: 50%;
+  bottom: -50px;
+  transform: translateX(-50%);
+  width: 160px;
+  height: 160px;
+}
+.section-about{
+  padding-top: 133px;
+  padding-bottom: 123px;
+}
+.container{
+
+}
+.section-about__title{
+
+}
+.section-about__heading{
+  max-width: 855px;
+  margin: 0 auto 61px;
+font-family: 'Uni Neue Book',sans-serif;
+font-weight: 500;
+font-size: 48px;
+line-height: 1.33;
+text-align: center;
+
+}
+.section-about__heading span{
+    font-family: 'Uni Neue',sans-serif;
+    color: #69B0AC;
+}
+.section-about__row{
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+}
+.section-about__video{
+
+}
+.promo-video__img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.promo-video{
+  position: relative;
+  width: 625px;
+  height: 420px;
+  border-radius: 40px;
+  overflow: hidden;
+  border: 10px solid #fff;
+box-shadow: 0px 80px 100px rgba(211, 226, 235, 0.8);
+}
+
+.promo-video::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(25.3% 57.25% at 50% 50%, rgba(80, 152, 190, 0.5) 0%, rgba(52, 113, 146, 0.76) 100%) ;
+}
+
+.promo-video__play-btn{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  margin-left: -43px;
+  margin-top: -50px;
+  width: 86px;
+  height: 100px;
+  background: url('../image/play.svg') center center no-repeat,transparent ;
+  border: none;
+}
+.promo-video__play-btn::before{
+
+}
+
+.section-about__text{
+  font-family: "Uni Neue",sans-serif;
+  margin-left: 50px;
+  width: 560px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #363636;
+}
+.section-about__text p{
+margin-bottom: 18px;
+margin-top: 0;
+}
+.numbers{
+margin-top: 89px;
+display: flex;
+justify-content: space-around;
+}
+
+.number{
+
+}
+.number__value{
+font-family: "Uni Neue";
+font-weight: 500;
+font-size: 100px;
+line-height: 1;
+background: rgb(167,215,241);
+background: linear-gradient(145deg, rgba(167,215,241,1) 0%, rgba(139,196,226,1) 100%);
+-webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+
+}
+.number__description{
+display: flex;
+}
+
+.number__description-bold{
+  font-family: "Uni Neue";
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.17;
+  margin-top: 25px;
+  color: #363636;
+}
+.number__description-text{
+  font-family: "Uni Neue";
+font-weight: 500;
+font-size: 16px;
+line-height: 1.37;
+color: #545454;
+width: 137px;
+margin-top: 35px;
+margin-left: 19px;
+}
