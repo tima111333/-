@@ -1,8 +1,10 @@
+
 *{
   box-sizing: border-box;
   Font Family: "Uni Neue", sans-serif;
-
-
+}
+html {
+  scroll-behavior: smooth;
 }
 body{
   margin: 0;
